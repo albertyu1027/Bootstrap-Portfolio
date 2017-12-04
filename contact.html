@@ -5,6 +5,7 @@
 
 	<!--link to Bootstrap-->
  	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+ 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <header class="navbar">
@@ -61,7 +62,7 @@
 								  </div>
 								  <div class="form-group">
 								    <div class="col-sm-offset-2 col-sm-10">
-								      <button type="submit" class="btn btn-default">Submit</button>
+								      <button type="submit" class="btn btn-default" id="submit">Submit</button>
 								    </div>
 								  </div>
 							</form>
@@ -75,13 +76,13 @@
   					<h4>Connect With Me</h4>
   					<hr>
 					  	<div>
-							<a href="https://stackoverflow.com/users/8286613/user8286613">   <img src="http://www.iconsdb.com/icons/preview/orange/stackoverflow-4-xxl.png" width="50px" alt="Stackoverflow">
+							<a href="https://stackoverflow.com/users/8286613/user8286613">   <img src="images/stackoverflow-128.png" width="50px" alt="Stackoverflow">
 							</a>
 						
-							<a href="https://github.com/albertyu1027"> <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="50px" alt="github">
+							<a href="https://github.com/albertyu1027"> <img src="images/github-128.png" width="50px" alt="github">
 							</a>
 						
-							<a href= "https://www.linkedin.com/in/albert-yu-pmp-71a52220/"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR510fslgpRzD1vAuiX6yAdfAnsSmBZstISkfTPBWz-EkahUu6q" width="50px" alt="linkedin">
+							<a href= "https://www.linkedin.com/in/albert-yu-pmp-71a52220/"> <img src="images/linkedin-128.png" width="50px" alt="linkedin">
 							</a>
 						</div>
 					</div>
@@ -101,6 +102,12 @@
  </div>
 
 </html>
+
+<script>
+ 	$("#submit").on("click", function() {
+ 		alert("You can contact me at 415-225-0434")
+ 	})
+</script>
 
 <style>
 
